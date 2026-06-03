@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navba-brand{
+    font-size: 40px;
+    color: black;
+}
+.navba-brand:hover{
+    color: black;
+}.nab-item{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nab-item:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(13, 20, 51);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(232, 159, 182);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.iphone-img{
+    width: 70%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.3s;
+}

@@ -1,0 +1,31 @@
+.navba{
+    width: 70%;
+    height: 30px;
+    margin:auto;
+    box-shadow: 0 0 5px gray;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    top: 0%;
+    position: fixed;
+    background-color: rgb(44, 54, 233);
+    padding: 20px;
+    margin-top: 50px;
+}
+.navba_title{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.list_item{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    color: aliceblue;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(61, 58, 241);
+    border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+.header{
+    text-align: center;
+    color: pink;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-shadow: 0 0 20px purple;
+}
+.box{
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 5px blue;
+}
+.box_img{
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black ;
+}

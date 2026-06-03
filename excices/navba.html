@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin:auto;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid rgb(77, 72, 72);
+        }
+        header,nav,footer{
+            width: 100%;
+            height: 15vh;
+        }
+        header,footer{
+            background-color: skyblue;
+        }
+        nav{
+            background-color: greenyellow;
+        }
+        main{
+            width: 100%;
+            height: 55vh;
+            display: flex;
+            background-color: yellow;
+        }
+        main > .left{
+            width: 30%;
+            height: 100%;
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+   <header class="item">Header</header>
+   <nav class="item">Navigation Menu</nav>
+   <main>
+        <div class="left">Content</div>
+        <div class="center">Main Content</div>
+        <div class="right">Content</div>
+   </main>
+   <footer class="item">Footer</footer>
+</body>
+</html>
